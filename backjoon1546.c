@@ -1,7 +1,7 @@
-/* #define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int return_max(int, int); // ÃÖ°íÁ¡À» °¡·Á³»´Â ÇÔ¼ö
+int return_max(int, int); // ÃƒÃ–Â°Ã­ÃÂ¡Ã€Â» Â°Â¡Â·ÃÂ³Â»Â´Ã‚ Ã‡Ã”Â¼Ã¶
 
 int main(void)
 {
@@ -12,4 +12,4 @@ int main(void)
 int return_max(int x, int y)
 {
 
-} */
+}
