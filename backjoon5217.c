@@ -1,8 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int swap_num(int, int);
-
 int main(void)
 {
 	int i, j, k;
