@@ -1,15 +1,15 @@
-/* #define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
  int main(void)
 {
 	int number[3];
 	int i, j, temp;
-	for (i = 0; i < 3; i++)			// number ¹è¿­¿¡ µé¾î°¥ ¼ö¸¦ ÀÔ·Â¹Ş´Â ¹İº¹¹®
+	for (i = 0; i < 3; i++)			// number ë°°ì—´ì— ë“¤ì–´ê°ˆ ìˆ˜ë¥¼ ì…ë ¥ë°›ëŠ” ë°˜ë³µë¬¸
 	{
 		scanf("%d", &number[i]);
 	}
-	for (i = 0; i < 2; i++)		    // number ¹è¿­¾ÈÀÇ ¼ö¸¦ ºñ±³ÇÏ¿© ¿À¸§Â÷¼øÀ¸·Î Á¤¸®
+	for (i = 0; i < 2; i++)		    // number ë°°ì—´ì•ˆì˜ ìˆ˜ë¥¼ ë¹„êµí•˜ì—¬ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì •ë¦¬
 		for (j = 1; j < 3; j++)
 		{
 			if (number[i] > number[j])
@@ -19,7 +19,7 @@
 				number[i] = temp;
 			}
 		}
-	for (i = 0; i < 3; i++)			// number ¹è¿­¾ÈÀÇ ¿ä¼Ò Ãâ·Â
+	for (i = 0; i < 3; i++)			// number ë°°ì—´ì•ˆì˜ ìš”ì†Œ ì¶œë ¥
 	{
 		printf("%d ", number[i]);
 	}
@@ -31,14 +31,14 @@ int main(void)
 	int a, b, c, temp;
 	scanf("%d %d %d", &a, &b, &c);
 	if (a > b) {
-		temp = a; a = b; b = temp; // temp¿¡ a°ª ÀúÀå, a,b°ª ¹Ù²ñ
+		temp = a; a = b; b = temp; // tempì— aê°’ ì €ì¥, a,bê°’ ë°”ë€œ
 	}
 	if (b > c) {
-		temp = b; b = c; c = temp; // temp¿¡ b°ª ÀúÀå, b,c °ª ¹Ù²ñ
+		temp = b; b = c; c = temp; // tempì— bê°’ ì €ì¥, b,c ê°’ ë°”ë€œ
 	}
 	if (a > b) {
-		temp = a; a = b; b = temp; // temp¿¡ a°ª ÀúÀå, a,b °ª ¹Ù²ñ
+		temp = a; a = b; b = temp; // tempì— aê°’ ì €ì¥, a,b ê°’ ë°”ë€œ
 	}		
 
 	printf("%d %d %d", a, b, c);
-} */
+} 
