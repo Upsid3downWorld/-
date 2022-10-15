@@ -1,4 +1,4 @@
-/* #define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
@@ -9,11 +9,11 @@ int main(void)
 
 	return 0;
 }
-// 2557¹ø
+// 2557Â¹Ã¸
 #include <stdio.h>
 
 int main(void)
 {
 	printf("Hello World!");
 	return 0;
-} */
+}
